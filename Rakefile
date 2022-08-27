@@ -1,5 +1,5 @@
 require_relative './config/environment'
-require 'sinatra/activerecord/rake'
+require 'sinatra/activerecord/rake'  #Has an agglomeration of all the common active record rake tasks. To see all these available tasks we run rake -T
 
 desc "Runs a Pry console"
 task :console do
